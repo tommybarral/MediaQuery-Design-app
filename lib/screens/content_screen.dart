@@ -6,7 +6,7 @@ class ContentScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-  var appBar = AppBar(title: Text('Content screen'), centerTitle: true,);
+  var appBar = AppBar(title: const Text('Content screen'), centerTitle: true,);
 
     return Scaffold(
       appBar: appBar,

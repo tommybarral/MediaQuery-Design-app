@@ -5,7 +5,6 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var curScaleFactor = MediaQuery.of(context).textScaleFactor;
     var appBar = AppBar(title: const Text('MediaQuery Design app'), centerTitle: true,);
 
 
